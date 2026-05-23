@@ -1,0 +1,35 @@
+---
+description: Token optimization for AI coding tools — selective reads, grep-first discovery, phase-aware context management.
+alwaysApply: true
+---
+
+# Token optimization
+
+## Behavioral patterns (apply universally)
+
+- Read files with offset/limit, not whole files, when you need a specific section
+- Grep before Read when location is uncertain
+- Compact at phase transitions in long sessions
+- Don't leave half-finished prompts during long pauses (cache TTL is ~5 min)
+- Separate sessions for routine work vs. complex thinking
+
+## Claude Code specifics
+
+```bash
+export CLAUDE_AUTOCOMPACT_PCT_OVERRIDE=70
+export MAX_THINKING_TOKENS=16000  # routine; unset for complex
+```
+
+## When to raise thinking budget
+
+- Architecture decisions
+- Non-trivial debugging
+- Multi-file refactors
+- Critical reviews
+
+## When to lower thinking budget
+
+- File operations
+- Lint/format fixes
+- Trivial single-file edits
+- Lookups
