@@ -1,6 +1,23 @@
-# Token Optimization Skills
+<p align="center">
+  <img src="https://ormus.solutions/mascot/chain_braces_to_swan.gif" alt="Token Optimization Skills" width="128" style="image-rendering: pixelated;" />
+</p>
 
-> A single `CLAUDE.md` for Claude Code token optimization. Environment variables and behavioral patterns that control cost, context, and thinking depth.
+<h1 align="center">Token Optimization Skills</h1>
+
+<p align="center">
+  <em>A CLAUDE.md for Claude Code token optimization — CLAUDE_AUTOCOMPACT_PCT_OVERRIDE, MAX_THINKING_TOKENS, and other env vars that control cost and context behavior.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/HermeticOrmus/token-optimization-skills/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/token-optimization-skills?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/token-optimization-skills/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/token-optimization-skills?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/token-optimization-skills/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/token-optimization-skills?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-aa8142?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
+</p>
+
+---
+
+> **A single `CLAUDE.md` for Claude Code token optimization. Environment variables and behavioral patterns that control cost, context, and thinking depth.**
 
 ## The two vars that matter most
 
